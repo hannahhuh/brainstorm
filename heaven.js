@@ -24,7 +24,7 @@ var timer;
 $(document).ready(function () {
 	if(document.URL.indexOf("#about") >= 0){giveawayOpen('about');}
 	else if (document.URL.indexOf("#menu") >= 0){giveawayOpen('menu');}
-	else if (document.URL.indexOf("#gallery") >= 0){giveawayOpen('gallery');}
+	else if (document.URL.indexOf("#media") >= 0){giveawayOpen('media');}
 	else if (document.URL.indexOf("#order") >= 0){giveawayOpen('order');}
 	else if (document.URL.indexOf("#giveaway") >= 0){giveawayOpen('giveaway');}
 
