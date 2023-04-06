@@ -11,9 +11,8 @@ var aboutOn = false;
 var menuOn = false;
 var mediaOn = false;
 
-var eventsOn = false;
+var orderOn = false;
 var giveawayOn = false;
-var grandBudapestOn = false;
 var carGone = false;
 var navTop = null;
 var clicked = null;
@@ -27,7 +26,6 @@ $(document).ready(function () {
 	else if (document.URL.indexOf("#menu") >= 0){giveawayOpen('menu');}
 	else if (document.URL.indexOf("#gallery") >= 0){giveawayOpen('gallery');}
 	else if (document.URL.indexOf("#order") >= 0){giveawayOpen('order');}
-	else if (document.URL.indexOf("#events") >= 0){giveawayOpen('events');}
 	else if (document.URL.indexOf("#giveaway") >= 0){giveawayOpen('giveaway');}
 
 	if( /Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent) ) {
